@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:scaleX="0.55" android:scaleY="0.55" android:pivotX="54" android:pivotY="54">
+        <!-- Monitor Outer Body / Bezel -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M20,24h68a4,4 0 0,1 4,4v42a4,4 0 0,1 -4,4H20a4,4 0 0,1 -4,-4V28a4,4 0 0,1 4,-4z" />
+
+        <!-- Monitor Stand Neck -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M54,74v8" />
+
+        <!-- Monitor Stand Base -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M38,82h32" />
+
+        <!-- Candlestick 1 (Gray) -->
+        <path android:strokeColor="#90A4AE" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M34,35v25"/>
+        <path android:fillColor="#90A4AE" android:pathData="M31,42h6v12h-6z"/>
+
+        <!-- Candlestick 2 (White) -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M48,28v32"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M45,35h6v18h-6z"/>
+
+        <!-- Candlestick 3 (Gray) -->
+        <path android:strokeColor="#90A4AE" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M62,38v24"/>
+        <path android:fillColor="#90A4AE" android:pathData="M59,44h6v12h-6z"/>
+
+        <!-- Candlestick 4 (White) -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M76,24v38"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M73,30h6v22h-6z"/>
+
+        <!-- Trend line overlay -->
+        <path android:strokeColor="#B0BEC5" android:strokeWidth="2" android:fillColor="#00000000"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M27,52 Q41,40 55,48 T83,32"/>
+    </group>
+</vector>
